@@ -1,0 +1,263 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 769px) {
+
+    .over-edge {
+        width: 100% !important;
+    }
+
+    .rotate-wrapper > img {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        font: 17px/1.8em "Open Sans", Helvetica, Arial;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2.7em;
+    }
+
+    h3 {
+        font-size: 2.1em;
+    }
+
+    h4 {
+        font-size: 1.7em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    h6 {
+        font-size: 1.4em;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .resp {
+        display: none;
+    }
+
+    img.left, .rotate-wrapper.left,
+    .over-edge.left  {
+        margin-right: 25px;
+    }
+
+    img.right, .rotate-wrapper.right,
+    .over-edge.right {
+        margin-left: 25px;
+    }
+
+    p, .p-margin li {
+        margin: 1.4em 0;
+    }
+
+    header {
+        background: url('../img/fit-lean-body.jpg') 390px 0 no-repeat #000000;
+        background-size: auto;
+        padding-bottom: 1.5em;
+    }
+
+    .subheading {
+        width: 90%;
+    }
+
+    .half {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .over-edge > img {
+        max-width: none;
+        position: relative;
+    }
+
+    .rotate-wrapper {
+        margin: 1em 0;
+    }
+
+    #shocking-ways {
+        background-position: -710px 0;
+    }
+
+    .transparent-grey {
+        display: inline-block;
+        width: 60%;
+        margin: 3em 0 3em 1.5em;
+    }
+
+    .transparent-grey ul {
+        padding-left: 2.5em;
+    }
+
+    #physician {
+        background-position: 57% 0;
+        background-size: inherit;
+    }
+
+    .exercise {
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin-right: 2em;
+    }
+
+    .red-box {
+        width: 80%;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    .components-wrapper > img {
+        display: inline-block;
+    }
+
+    .components {
+        width: 70%;
+        display: inline-block;
+        margin: 1em auto;
+    }
+
+    .green-check {
+        padding-left: 2em;
+    }
+
+    .green-check li div {
+        width: 90%;
+    }
+
+    .components.narrow {
+        width: 60%;
+        margin-right: 25px;
+    }
+
+    .testimonial img {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #guarantee {
+        background: url('../img/guarantee-bg.jpg') 0 0 no-repeat #fff;
+        background-size: contain;
+    }
+
+    img.upscale {
+        width: auto;
+    }
+
+    .price-box {
+        width: 50%;
+    }
+
+    .alt-index header {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    .alt-index header #title-1 {
+        margin-bottom: 50px;
+    }
+
+    .alt-index #title-3 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .alt-index #headline {
+        margin-top: -100px;
+    }
+
+    .alt-index #headline .subheading {
+        border: none;
+    }
+
+    .alt-index #headline .subheading .blue {
+        color: #0052b6;
+    }
+
+    .order-area {
+        margin: 0 auto 1em;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+    /* ===============
+        Maximal Width
+       =============== */
+
+    br {
+        display: block;
+    }
+
+    section {
+        width: 1098px;
+        margin: 0 auto;
+    }
+
+    section.wider {
+        width: 1502px;
+    }
+
+    header {
+        background: url('../img/fit-lean-body.jpg') 104% 0 no-repeat #000000;
+        background-size: contain;
+    }
+
+    .order-area {
+        width: 908px;
+    }
+
+    .order-area .left-box {
+        margin-left: 22px;
+        width: inherit;
+    }
+
+    .order-area .right-box {
+        width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1367px)  {
+    header {
+        background: url('../img/fit-lean-body.jpg') 100% 0 no-repeat #000000;
+        background-size: contain;
+    }
+}
+/*@media only screen and (max-width: 480px)  {
+    header {
+        background: url('../img/fit-lean-body.jpg') 100% 104% no-repeat #000000 ;
+        background-size: contain;
+
+    }
+}*/
+/*@media only screen and (max-width: 768px) and (orientation : portrait) {
+    header {
+        background: url('../img/fit-lean-body.jpg') 390px 0 no-repeat #000000 !important;
+    }
+}*/
+
